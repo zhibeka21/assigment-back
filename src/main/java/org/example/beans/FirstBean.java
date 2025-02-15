@@ -1,4 +1,10 @@
 package org.example.beans;
 
-public class FIrstBean {
+import org.springframework.stereotype.Component;
+
+@Component
+public class FirstBean {
+    public String process() {
+        return "Data processed by FirstBean";
+    }
 }
